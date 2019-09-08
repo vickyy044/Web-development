@@ -1,0 +1,56 @@
+<!-- now we'll learn about how to make forms in html
+We'll learn the use of various tags
+'form' tag is use to create forms (its a closing and opening)
+'fieldset' it creates a BOX around my form
+ 
+-->
+<html>
+	<head
+		<title> HTML forms</title>
+	</head>
+		<body >
+		<h2> Please fill up this form to the best of your knowledge</h2>
+		<form >
+			<fieldset>
+				<legend ><strong>Student Details Form</strong></legend>
+				First Name  : <br><input type="text" name="first name"><br>
+				Second Name : <br><input type="text" name="second name"><br><br>
+				Gender:<br>
+				Male   <input type="radio" name="gender" checked><br>
+				Female <input type="radio" name="gender"><br><br>
+				DOB:<br><input type="date" name="dob"><br><br>
+				Please enter the course in which you are enrolled:<br>
+				B.Tech (CSE)  <input type="radio" name="course" checked><br>
+				B.Tech(IT) <input type="radio" name="course"><br><br>
+				<select name="semester">
+					<option value="first">1st sem</option>
+					<option value="second">2nd sem</option>
+					<option value="third">3rd sem</option>
+					<option value="fourth">4th sem</option>
+					<option value="fifth">5th sem</option>
+					<option value="sixth">6th sem</option>
+					<option value="seventh">7th sem</option>
+					<option value="eighth">8th sem</option>
+				</select><br>
+				<input type="submit" value="submit"><br><br>
+				Field of Interest:<br>
+				<input type="checkbox" name="interest">Competitive programming<br>
+				<input type="checkbox" name="interest">Web Development<br>
+				<input type="checkbox" name="interest">Android Development<br><br>
+				E-Mail : <input type="email" name="mail"><br><br>
+				Mobile No. :<input type="tel" name="number"><br><br>
+				Attach File : <input type="file" name="file"><br><br>
+				month :<input type="month" name="month"><br><br>
+				range: <input type="range" name="rate" min="1" max="10"><br><br>
+				Search:<input type="search" name="search"><br><br>
+				time:<input type="time" name="time"><br><br>
+				URL:<input type="url" name="enterurl"><br><br>
+				Colour: <input type="color" name="colors"><br><br>
+				Reset Button : <input type="reset" name="reset"><br><br>
+				Message from user : <br><textarea name="username" rows="5" col="20">
+				</textarea>
+				
+			</fieldset>
+		</form>
+		</body>
+</html>
